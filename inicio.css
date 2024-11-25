@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+
+.container-foto{
+    
+    height: 200vh;
+    padding: 20px;
+   display: flex;
+}
+
+
+.sobre h1{
+
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.container-sobre{
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 25px;
+    display: flex;
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+
+.foto img{
+    border-radius: 12px;
+}
+
+.texto h1{
+  
+    color: aliceblue;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.texto p{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.texto p span{
+    color: goldenrod;
+}
+/*.sobre{
+   
+    padding: 20px;
+    margin-top: 50px;
+   
+   
+}
+
+.sobre h1{
+    color: white;
+   
+}
+
+.sobre p{
+    color: aliceblue;
+}
+
+.sobre iframe{
+    margin-top: 20px;
+}
+
+.container-sobre h1{
+    color: aliceblue;
+}
+
+.texto{
+    color: aliceblue;
+}
+/

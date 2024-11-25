@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+.Parent{
+ 
+ margin: 0;
+ display: flex;
+ align-items: center;
+
+}
+
+ header{
+  width: 100%;
+   background-color: #66257a;
+   padding: 5px 4%;
+   top: 0;
+   left: 0;
+   transition: .5s;
+ }
+
+ header.rolagem {
+    background-color: #66257a;
+    padding:  2%;
+ }
+
+
+
+
+.logo{
+    padding-left: 10px;
+}
+
+.logo img{
+    width: 200px;
+    
+}
+
+.menu{
+    width: 100%;
+    text-align: right;
+}
+
+.menu nav a{
+    color:rgb(249, 246, 241);
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 17px;
+    border: 2px #fbf5ff solid;
+    border-radius:12px;
+    border-spacing: 30px;
+    border-style: dashed;
+    padding: 12px;
+
+}
+
+
+
+    .banner{
+        height: 100vh;
+        /*height:663px;
+        width: 1263px;*/
+        background-image: url(img/fundopixilgih.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.banner h1{
+    color: aliceblue;
+    width: 70%;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    
+}
+
+.banner h1 span{
+    color: #AC9D15;
+}
+
+
+footer{
+    color: aliceblue;
+    background-color:  #66257a;
+    border-radius: 12px 12px 0 0;
+    margin-top: 150px;
+}
+
+.container-foooter{
+    padding: 19px;
+    margin: 30px 30px 0 30px ;
+    display: flex;
+    justify-content:space-around;
+}
+
+.paginas ul li {
+    list-style: none;
+   
+}
+
+.paginas ul li a{
+    color: aliceblue;
+    font-size: 11px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.diretrizes a{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 11px;
+}
+
+.sla{
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+.meajude{
+    letter-spacing: 2px;
+    font-size: 11px;
+    color: #b9aa1b;
+    font-style:italic;
+}
+
+.diretrizes i{
+    letter-spacing: 20px;
+}
+ 
+
+.scrr{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.midias i{
+    letter-spacing: 30px;
+    margin-top: 25px;
+    
+}

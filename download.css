@@ -1,0 +1,100 @@
+body{
+    background-color: #1f1f1f;
+}
+
+/*.fundo{
+    height: 100vh;
+    /*height:663px;
+    width: 1263px;
+    background-image: url(img/secretaria.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0;
+}*/
+
+.fundo {
+  
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+
+  .fundo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("img/secretaria.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+
+.baixasse{
+    justify-content: space-around;
+    display: flex;
+ 
+    padding: 10px;
+    margin-top: 50px;
+    margin: 40px;
+    border-radius: 12px;
+
+}
+
+ section h2{
+    text-align: center;
+    color: #F9E4FF;
+    font-size:40px;
+    -webkit-text-stroke: 0x aliceblue;
+}
+
+.windows{
+    width: 250px;
+    height: 250px;;
+    background-color: #3F3B6E74 ;
+    border-radius: 100%;
+    border: 4px #694E91 dashed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.apple{
+    width: 250px;
+    height: 250px;
+    background-color: #3f3b6e74  ;
+    border-radius: 100%;
+    border: 4px #694E91 dashed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.linux{
+    width: 250px;
+    height: 250px;
+    background-color: #3f3b6e74  ;
+    border-radius: 100%;
+    border: 4px #694E91 dashed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    
+}
+.linux:hover, .apple:hover{
+   
+    background-color: #4E749174;
+
+    
+    
+}
+
+.windows:hover{
+    background-color: #4E749174;
+}
+
