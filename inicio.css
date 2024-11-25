@@ -47,6 +47,11 @@ body{
 .texto p span{
     color: goldenrod;
 }
+
+.sobre{
+margin-bottom: 150px;
+}
+
 /*.sobre{
    
     padding: 20px;
